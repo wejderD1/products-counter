@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-btn {
+    @apply bg-red-300 border border-solid border-rose-600 hover:bg-red-200 rounded-md mx-4 p-2;
+  }
+
+  .popup-btn {
+    @apply bg-red-300 border border-solid border-rose-700 hover:bg-red-200 rounded-md p-2;
+  }
+
+  .user-input {
+    @apply border-rose-700 w-full mb-2;
+  }
+
+  .selected-unit {
+    @apply absolute inline-block border border-red-800 border-solid rounded-full w-4 h-4 top-6 left-0 bottom-0 right-0;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
