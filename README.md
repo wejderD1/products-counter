@@ -1,3 +1,4 @@
+![Preview](./product-counter.jpg)
 # Products counter
 
 ## Description
