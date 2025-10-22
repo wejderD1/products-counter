@@ -33,7 +33,7 @@
     <!-- MAIN -->
     <main class="main relative flex flex-col h-full pb-9">
       <!-- HEADER -->
-      <header class="header p-4 flex justify-start bg-red-400">
+      <header class="header p-4 flex justify-start bg-red-400 ">
         <button class="btn header-btn" @click="newProductHandler()">
           new product
         </button>
@@ -122,7 +122,9 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer w-full h-20 bg-red-400"></footer>
+    <footer class="footer flex justify-center items-center w-full h-20 bg-red-400">
+      <h1 class="uppercase text-white">copiright &copy; 2025. Yurii Hnatiuk.</h1>
+    </footer>
   </div>
 </template>
 
